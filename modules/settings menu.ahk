@@ -241,7 +241,7 @@ Return
 
 Settings_menu_alarm:
 settings_menu_section := "alarm"
-Gui, settings_menu: Add, Link, % "ys hp Section xp+"spacing_settings*1.2, <a href="https://github.com/Lailloken/Lailloken-UI/wiki/Minor-Features">wiki page</a>
+Gui, settings_menu: Add, Link, % "ys hp Section xp+"spacing_settings*1.2, <a href="https://github.com/Lailloken/Lailloken-UI-Legacy/wiki/Minor-Features">wiki page</a>
 Gui, settings_menu: Add, Checkbox, % "xs BackgroundTrans venable_alarm gAlarm checked"enable_alarm " y+"fSize0*1.2, enable alarm-timer
 If (enable_alarm = 1)
 {
@@ -272,7 +272,7 @@ Return
 
 Settings_menu_betrayal:
 settings_menu_section := "betrayal"
-Gui, settings_menu: Add, Link, % "ys hp Section xp+"spacing_settings*1.2, <a href="https://github.com/Lailloken/Lailloken-UI/wiki/Betrayal-Info">wiki page</a>
+Gui, settings_menu: Add, Link, % "ys hp Section xp+"spacing_settings*1.2, <a href="https://github.com/Lailloken/Lailloken-UI-Legacy/wiki/Betrayal-Info">wiki page</a>
 
 Gui, settings_menu: Add, Checkbox, % "xs Section Center gBetrayal_apply vsettings_enable_betrayal BackgroundTrans y+"fSize0*1.2 " Checked"settings_enable_betrayal, % "enable the betrayal-info overlay"
 If settings_enable_betrayal
@@ -318,7 +318,7 @@ Return
 Settings_menu_cheatsheets:
 settings_menu_section := "cheat sheets"
 GoSub, Init_cheatsheets
-Gui, settings_menu: Add, Link, % "ys hp Section xp+"spacing_settings*1.2, <a href="https://github.com/Lailloken/Lailloken-UI/wiki/Cheat-sheet-Overlay-Toolkit">wiki page</a>
+Gui, settings_menu: Add, Link, % "ys hp Section xp+"spacing_settings*1.2, <a href="https://github.com/Lailloken/Lailloken-UI-Legacy/wiki/Cheat-sheet-Overlay-Toolkit">wiki page</a>
 Gui, settings_menu: Add, Link, % "ys hp x+"font_width*4, <a href="https://www.rapidtables.com/web/color/RGB_Color.html">rgb tools and tables</a>
 Gui, settings_menu: Add, Checkbox, % "xs Section BackgroundTrans vfeatures_enable_cheatsheets gcheatsheets checked"features_enable_cheatsheets " y+"font_height, enable cheat-sheet toolkit
 If !features_enable_cheatsheets
@@ -390,7 +390,7 @@ new_clone_menu_closed := 0
 clone_frames_enabled := ""
 IniRead, clone_frames_list, ini\clone frames.ini,,, % A_Space
 Sort, clone_frames_list, D`n
-Gui, settings_menu: Add, Link, % "ys hp Section xp+"spacing_settings*1.2, <a href="https://github.com/Lailloken/Lailloken-UI/wiki/Clone-frames">wiki page</a>
+Gui, settings_menu: Add, Link, % "ys hp Section xp+"spacing_settings*1.2, <a href="https://github.com/Lailloken/Lailloken-UI-Legacy/wiki/Clone-frames">wiki page</a>
 If (pixel_gamescreen_x1 != "") && (pixel_gamescreen_x1 != "ERROR") && (enable_pixelchecks = 1)
 {
 	Gui, settings_menu: Add, Checkbox, % "xs Section BackgroundTrans gClone_frames_apply vClone_frames_pixelcheck_enable Checked" clone_frames_pixelcheck_enable " y+"fSize0*1.2, automatically hide clone-frames
@@ -424,7 +424,7 @@ Return
 
 Settings_menu_delve:
 settings_menu_section := "delve"
-Gui, settings_menu: Add, Link, % "ys hp Section xp+"spacing_settings*1.2, <a href="https://github.com/Lailloken/Lailloken-UI/wiki/Delve-helper">wiki page</a>
+Gui, settings_menu: Add, Link, % "ys hp Section xp+"spacing_settings*1.2, <a href="https://github.com/Lailloken/Lailloken-UI-Legacy/wiki/Delve-helper">wiki page</a>
 Gui, settings_menu: Add, Checkbox, % "xs Section BackgroundTrans venable_delve gDelve checked"enable_delve " y+"fSize0*1.2, enable delve-helper
 If (enable_delve = 1)
 {
@@ -471,7 +471,7 @@ Return
 Settings_menu_general:
 settings_menu_section := "general"
 
-Gui, settings_menu: Add, Link, % "ys hp Section xp+"spacing_settings*1.2, <a href="https://github.com/Lailloken/Lailloken-UI/wiki">llk-ui wiki</a>
+Gui, settings_menu: Add, Link, % "ys hp Section xp+"spacing_settings*1.2, <a href="https://github.com/Lailloken/Lailloken-UI-Legacy/wiki">llk-ui wiki</a>
 Gui, settings_menu: Add, Checkbox, % "xs Section BackgroundTrans gApply_settings_general HWNDmain_text Checked" kill_script " vkill_script y+"fSize0*1.2, % "kill script after"
 ControlGetPos,,,, controlheight,, ahk_id %main_text%
 
@@ -1506,7 +1506,7 @@ Return
 
 Settings_menu_itemchecker:
 settings_menu_section := "itemchecker"
-Gui, settings_menu: Add, Link, % "ys hp Section xp+"spacing_settings*1.2, <a href="https://github.com/Lailloken/Lailloken-UI/wiki/Item-info">wiki page</a>
+Gui, settings_menu: Add, Link, % "ys hp Section xp+"spacing_settings*1.2, <a href="https://github.com/Lailloken/Lailloken-UI-Legacy/wiki/Item-info">wiki page</a>
 Gui, settings_menu: Add, Link, % "ys hp x+"fSize0*2, <a href="https://www.rapidtables.com/web/color/RGB_Color.html">rgb tools and tables</a>
 
 Gui, settings_menu: Add, Text, % "xs Section Center BackgroundTrans y+"font_height*0.75, % "selected profile: "
@@ -1612,7 +1612,7 @@ Return
 
 Settings_menu_leveling_guide:
 settings_menu_section := "leveling guide"
-Gui, settings_menu: Add, Link, % "ys hp Section xp+"spacing_settings*1.2, <a href="https://github.com/Lailloken/Lailloken-UI/wiki/Leveling-Tracker">wiki page</a>
+Gui, settings_menu: Add, Link, % "ys hp Section xp+"spacing_settings*1.2, <a href="https://github.com/Lailloken/Lailloken-UI-Legacy/wiki/Leveling-Tracker">wiki page</a>
 Gui, settings_menu: Add, Link, % "ys hp x+"font_width*2, <a href="https://www.rapidtables.com/web/color/RGB_Color.html">rgb tools and tables</a>
 Gui, settings_menu: Add, Checkbox, % "xs Section BackgroundTrans gLeveling_guide y+"fSize0*1.2 " vsettings_enable_levelingtracker Checked"settings_enable_levelingtracker, % "enable leveling tracker"
 Gui, settings_menu: Add, Picture, % "ys x+0 BackgroundTrans gSettings_menu_help vLeveling_guide_help hp w-1", img\GUI\help.png
@@ -1680,7 +1680,7 @@ Return
 
 Settings_menu_map_info:
 settings_menu_section := "map info"
-Gui, settings_menu: Add, Link, % "ys hp Section xp+"spacing_settings*1.2, <a href="https://github.com/Lailloken/Lailloken-UI/wiki/Map-info-panel">wiki page</a>
+Gui, settings_menu: Add, Link, % "ys hp Section xp+"spacing_settings*1.2, <a href="https://github.com/Lailloken/Lailloken-UI-Legacy/wiki/Map-info-panel">wiki page</a>
 Gui, settings_menu: Add, Link, % "ys hp x+"font_width*2, <a href="https://www.rapidtables.com/web/color/RGB_Color.html">rgb tools and tables</a>
 Gui, settings_menu: Add, Checkbox, % "xs Section BackgroundTrans gMap_info y+"font_height " venable_map_info Checked"enable_map_info, enable the map-info panel
 
@@ -1709,7 +1709,7 @@ Return
 
 Settings_menu_map_tracker:
 settings_menu_section := "map tracker"
-Gui, settings_menu: Add, Link, % "ys hp Section xp+"spacing_settings*1.2, <a href="https://github.com/Lailloken/Lailloken-UI/wiki/Mapping-tracker">wiki page</a>
+Gui, settings_menu: Add, Link, % "ys hp Section xp+"spacing_settings*1.2, <a href="https://github.com/Lailloken/Lailloken-UI-Legacy/wiki/Mapping-tracker">wiki page</a>
 Gui, settings_menu: Add, Checkbox, % "xs Section BackgroundTrans gMap_tracker y+"fSize0*1.2 " vsettings_enable_maptracker Checked"settings_enable_maptracker, enable mapping tracker
 Gui, settings_menu: Add, Picture, % "ys BackgroundTrans gSettings_menu_help vmap_tracker_help hp w-1 x+0", img\GUI\help.png
 
@@ -1748,7 +1748,7 @@ Return
 
 Settings_menu_notepad:
 settings_menu_section := "notepad"
-Gui, settings_menu: Add, Link, % "ys hp Section xp+"spacing_settings*1.2, <a href="https://github.com/Lailloken/Lailloken-UI/wiki/Notepad-&-Text-widgets">wiki page</a>
+Gui, settings_menu: Add, Link, % "ys hp Section xp+"spacing_settings*1.2, <a href="https://github.com/Lailloken/Lailloken-UI-Legacy/wiki/Notepad-&-Text-widgets">wiki page</a>
 Gui, settings_menu: Add, Checkbox, % "xs Section BackgroundTrans gNotepad y+"fSize0*1.2 " venable_notepad Checked"enable_notepad, enable notepad
 If (enable_notepad = 1)
 {
@@ -1820,12 +1820,12 @@ If (A_GuiControl = "hotkeys_restart")
 }
 
 ;some controls are prefixed with "settings_" in order to prevent global vars from being overwritten when GUI is submitted with incomplete/incorrect config
-Gui, settings_menu: Add, Link, % "ys hp Section xp+"spacing_settings*1.2, <a href="https://github.com/Lailloken/Lailloken-UI/wiki/Omni-key">wiki page</a>
+Gui, settings_menu: Add, Link, % "ys hp Section xp+"spacing_settings*1.2, <a href="https://github.com/Lailloken/Lailloken-UI-Legacy/wiki/Omni-key">wiki page</a>
 Gui, settings_menu: Font, bold underline
 Gui, settings_menu: Add, Text, % "xs Section BackgroundTrans HWNDmain_text y+"font_height*0.8, % "in-game keybind settings:"
 Gui, settings_menu: Font, norm
 Gui, settings_menu: Add, Picture, % "ys BackgroundTrans vingame_keys_help gSettings_menu_help hp w-1", img\GUI\help.png
-;Gui, settings_menu: Add, Link, % "ys hp", <a href="https://github.com/Lailloken/Lailloken-UI/wiki/Known-Issues-&-Limitations#custom-poe-keybinds-alt--c">wiki</a>
+;Gui, settings_menu: Add, Link, % "ys hp", <a href="https://github.com/Lailloken/Lailloken-UI-Legacy/wiki/Known-Issues-&-Limitations#custom-poe-keybinds-alt--c">wiki</a>
 Gui, settings_menu: Add, Checkbox, % "xs Section BackgroundTrans gSettings_menu_hotkeys vSettings_advanced_items_rebound Checked"advanced_items_rebound, <show advanced item descriptions>`nis not bound to the alt-key
 
 Gui, settings_menu: Add, Text, % "xs xp+"font_width*2 " BackgroundTrans vsettings_text_altkey", % "–> instead bound to: "
@@ -1883,7 +1883,7 @@ Return
 
 Settings_menu_screenchecks:
 settings_menu_section := "screenchecks"
-Gui, settings_menu: Add, Link, % "ys hp Section xp+"spacing_settings*1.2, <a href="https://github.com/Lailloken/Lailloken-UI/wiki/Screen-checks">wiki page</a>
+Gui, settings_menu: Add, Link, % "ys hp Section xp+"spacing_settings*1.2, <a href="https://github.com/Lailloken/Lailloken-UI-Legacy/wiki/Screen-checks">wiki page</a>
 Gui, settings_menu: Font, bold underline
 Gui, settings_menu: Add, Text, % "xs Section BackgroundTrans y+"fSize0*1.2, % "list of integrated pixel-checks:"
 Gui, settings_menu: Font, norm
@@ -1936,7 +1936,7 @@ Settings_menu_stash_search:
 settings_menu_section := "stash search"
 GoSub, Init_searchstrings
 new_stash_search_menu_closed := 0
-Gui, settings_menu: Add, Link, % "ys hp Section xp+"spacing_settings*1.2, <a href="https://github.com/Lailloken/Lailloken-UI/wiki/Search-strings">wiki page</a>
+Gui, settings_menu: Add, Link, % "ys hp Section xp+"spacing_settings*1.2, <a href="https://github.com/Lailloken/Lailloken-UI-Legacy/wiki/Search-strings">wiki page</a>
 Gui, settings_menu: Add, Link, % "ys hp x+"font_width*3, <a href="https://poe.re/">poe regex</a>
 
 /*
