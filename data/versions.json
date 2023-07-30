@@ -1,7 +1,10 @@
 {
   "_release": [
     15000.1,
-    "hotfix: yadda yadda"
+    [
+      "yadda yadda",
+      "beep boop"
+    ]
   ],
   "data\\help tooltips1.json": [
     2,
