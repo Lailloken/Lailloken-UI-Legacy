@@ -1,4 +1,4 @@
-# This Legacy Version will no longer receive feature updates, only bugfixes
+# This Legacy Version will no longer receive updates
 
 ## About:
 A light-weight AHK script with UI and QoL features for Path of Exile, emphasizing ease-of-use, minimalist design, low hotkey requirements, and seamless integration into the game-client. This project is **not** affiliated with or endorsed by Grinding Gear Games (GGG) in any way.  
